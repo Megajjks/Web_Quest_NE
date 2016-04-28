@@ -1,0 +1,396 @@
+*{margin:0; padding:0;} /*Estilo universal*/
+header{
+	width:100%;
+	height:635px;
+	overflow:hidden; /*para evita que se desbarate*/ 
+	/**background-color:#263238;**/
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/Conferencia.jpg'); 
+	background-position:center;	
+}	
+header p{
+	font-family: 'Lobster', cursive;
+	font-size:100px;
+	color:#efebe9;
+	text-align:center;
+	font-style:none; 
+}
+header img{
+	width:100%; 	
+}
+
+.wrapper{ /*regla para centrar cualquie div*/
+	width:90%;
+	max-width:700px;
+	margin:auto;
+	overflow:hidden;
+}
+header nav{
+	line-height:50px; /**separador de espacios de altura**/
+	font-size:20px;
+	font-family: 'Fredoka One', cursive;
+	text-align:center;
+}
+header nav a{
+	display:inline-block; /** para que uno este del lado del otro**/
+	text-decoration:none;
+	color:#f5f5f5;
+	padding:10px 30px;
+	line-height:normal;
+	font-weight:bold;
+	text-decoration:none; 	
+}
+header nav a:hover{ /**Evento hover al posicionar el puntero**/
+	background: #dd2c00;
+	border-radius:50px;
+	/**transiciones según el navegador**//
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;		
+}
+
+/*una vez que el scroll haya pasado dicha cantidad de px se activa el header 2*/
+
+.header2{
+	position:fixed; /*le indicamos que el header se pegue*/
+	height:auto;
+
+}
+.header2 img{
+	width:20%;
+}
+.header2 p{
+	font-size:22px;
+	text-align:left;
+}	
+.header2 nav a{
+	font-size:20px;
+	float: right;
+}
+/* Diseñando el BODY*/
+body{
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/picjumbo.com_Smooth-Touch-Workspace.jpg');
+	background-position:50% 50%;
+	background-attachment:fixed;  
+	background-color:#3e2723;
+}
+section .espacio{
+	height:153px;
+}
+section .talleres{
+ 	height:80px; 
+ 	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/picjumbo.com_Smooth-Touch-Workspace.jpg');
+ 	background-position:50% 50%; 
+ 	background-attachment:fixed;
+ 	background-color:#4e342e;
+ 	border-bottom:5px;
+ 	border-bottom-style:double;
+ 	border-bottom-color:#efebe9;
+ 	border-left:5px;
+ 	border-left-style:groove;
+ 	border-left-color:#efebe9;
+ 	border-right:5px;
+ 	border-right-style:groove;
+ 	border-right-color:#efebe9; 
+ }
+ section .talleres p{
+ 	font-family:'Lobster', cursive;
+ 	text-align: center;
+ 	text-decoration: bold;
+ 	font-size:60px;  
+ 	color:#efebe9; 
+ }
+ section .T1 img{
+ 	display:inline-block;
+ 	max-width: 28%;
+ }
+ .separador{
+ 	margin-right:60px; 
+ }
+ .text{
+ 	display:inline-block;
+ 	margin-right:100px; 
+ 	font-family:'Yanone Kaffeesatz', sans-serif;
+ 	font-size:38px;
+ 	text-align:center; 
+ 	color:#fbe9e7;
+ }
+ .not{
+ 	margin-right:30px;
+ 	margin-left:50; 
+ 	text-align:center;  
+ }
+section .T1{
+	height:365px;  
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/picjumbo.com_Smooth-Touch-Workspace.jpg');
+ 	background-position:50% 50%; 
+ 	background-color: #ffc107;
+ 	background-attachment:fixed; 
+} 
+section .publicidad{
+	height:485px; 
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/tumblr_ndyg3pYbKW1tubinno1_1280%20%281%29.jpg'); 
+ 	background-attachment:fixed;
+ 	background-position:50% 50%;  
+ 	background-color:#ffd600;	
+}
+
+/*1 material va word*/ 
+section .material{
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/tumblr_n2huofKatv1tubinno1_1280.jpg'); 
+	background-color:#ffc107;
+	background-position:50% 50%;
+	background-attachment:fixed;
+	height:180px; 
+}
+section .material img{
+	display:inline-block;
+	float:left;
+	max-width:10%; 
+}
+section .material p{ 
+	font-size:30px;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	color:#fff8e1;  
+	line-height:40px; 
+}
+section .box1{
+	border:3px;
+	border-style:solid;
+	border-color: #263238;  
+	border-radius:40px;
+	display:inline-block;
+	background-color: #263238; 
+	float:right;
+	padding:none;
+	margin:none;
+	padding:4px;  
+}
+section .box1 p{ 
+	font-size:20px;
+	font-family:'Y', sans-serif;
+	color:#efebe9; 
+	text-align:center;
+	text-decoration:none;   
+}
+section .material:hover{
+	background-image:none; 
+	background:#ff5722;
+	opacity:0.8; 
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;	
+}
+section .box1:hover{
+	background-color: #4caf50;
+	border-color: #4caf50;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease; 
+}
+section .box1 p:hover{
+	font-size:30px;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;
+}
+
+/*2 material va power point*/ 
+section .material2{
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/tumblr_n2huofKatv1tubinno1_1280.jpg'); 
+	background-color:#ffc107;
+	background-position:50% 50%;
+	background-attachment:fixed;
+	height:180px; 
+}
+section .material2 img{
+	display:inline-block;
+	float:left;
+	max-width:10%; 
+}
+section .material2 p{ 
+	font-size:30px;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	color:#fff8e1;  
+	line-height:40px; 
+}
+section .box2{
+	border:3px;
+	border-style:solid;
+	border-color: #263238;  
+	border-radius:40px;
+	display:inline-block;
+	background-color: #263238; 
+	float:right;
+	padding:none;
+	margin:none;
+	padding:4px;  
+}
+section .box2 p{ 
+	font-size:20px;
+	font-family:'Y', sans-serif;
+	color:#efebe9; 
+	text-align:center;  
+	text-decoration:none; 
+}
+section .material2:hover{
+	background-image:none; 
+	background: #f44336;
+	opacity:0.8; 
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;	
+}
+section .box2:hover{
+	background-color: #4caf50;
+	border-color: #4caf50;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease; 
+}
+section .box2 p:hover{
+	font-size:30px;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;
+}
+
+/*3 material va power point*/ 
+section .material3{
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/tumblr_n2huofKatv1tubinno1_1280.jpg'); 
+	background-color:#ffc107;
+	background-position:50% 50%;
+	background-attachment:fixed;
+	height:180px; 
+}
+section .material3 img{
+	display:inline-block;
+	float:left;
+	max-width:10%; 
+}
+section .material3 p{ 
+	font-size:30px;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	color:#fff8e1;  
+	line-height:40px; 
+}
+section .box3{
+	border:3px;
+	border-style:solid;
+	border-color: #263238;  
+	border-radius:40px;
+	display:inline-block;
+	background-color: #263238; 
+	float:right;
+	padding:none;
+	margin:none;
+	padding:4px;  
+}
+section .box3 p{ 
+	font-size:20px;
+	font-family:'Y', sans-serif;
+	color:#efebe9; 
+	text-align:center;  
+	text-decoration:none;
+}
+section .material3:hover{
+	background-image:none; 
+	background: #ff5722;
+	opacity:0.8; 
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;	
+}
+section .box3:hover{
+	background-color: #4caf50;
+	border-color: #4caf50;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease; 
+}
+section .box3 p:hover{
+	font-size:30px;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;
+}
+/*4 material va power point*/ 
+section .material4{
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/tumblr_n2huofKatv1tubinno1_1280.jpg'); 
+	background-color:#ffc107;
+	background-position:50% 50%;
+	background-attachment:fixed;
+	height:180px; 
+}
+section .material4 img{
+	display:inline-block;
+	float:left;
+	max-width:10%; 
+}
+section .material4 p{ 
+	font-size:30px;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	color:#fff8e1;  
+	line-height:40px; 
+}
+section .box4{
+	border:3px;
+	border-style:solid;
+	border-color: #263238;  
+	border-radius:40px;
+	display:inline-block;
+	background-color: #263238; 
+	float:right;
+	padding:none;
+	margin:none;
+	padding:4px;  
+}
+section .box4 p{ 
+	font-size:20px;
+	font-family:'Y', sans-serif;
+	color:#efebe9; 
+	text-align:center;  
+	text-decoration:none;
+}
+section .material4:hover{
+	background-image:none; 
+	background: #f44336;
+	opacity:0.8; 
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;	
+}
+section .box4:hover{
+	background-color: #4caf50;
+	border-color: #4caf50;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease; 
+}
+section .box4 p:hover{
+	font-size:30px;
+	-webkit-transition:all 5000ms ease;
+	-o-transition:all 5000ms ease;
+	transition:all 500ms ease;
+}
+footer{
+	background-image:url('file:///C:/Users/MEGAJJKS/Desktop/Next%20Generation_%20las%20generaciones%20sociales/Web/IMG/picjumbo.com_Smooth-Touch-Workspace.jpg');
+	background-position:50% 50%;
+	background-attachment:fixed;  
+	background-color:#3e2723; 
+}
+footer img{
+	float:left;
+	display:inline-block;
+	margin-right:140px;
+	margin-left:140px;
+	max-width:100%;    
+}
+/* por el momento sin función xD
+footer :hover{
+background-image:none; 
+background-color:#fafafa;
+opacity:0.8; 
+-webkit-transition:all 5000ms ease;
+-o-transition:all 5000ms ease;
+transition:all 500ms ease; 
+}*/
